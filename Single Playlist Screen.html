@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Playlist</title>
+    <link rel="stylesheet" type="text/css" href="Single Playlist Screen Styles.css">
+    <link rel="stylesheet" type="text/css" href="Secondary page responsive.css">
+    <script src="https://kit.fontawesome.com/2d9b67a497.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- top navigation bar -->
+    <nav class="navigation-bar">
+        <!-- this div contains the logo and title os the page -->
+        <div class="title-combo">
+            <div class="website-logo">
+                <img src="pmedia/background_image/website_logo.png">
+            </div>
+            <div class="website-name">
+                <h2>
+                    <a href="index.html">
+                        Krishna
+                    </a>
+                </h2>
+                <h6 style="color: magenta;">
+                    <a href="index.html">Music Player</a>
+                </h6>
+            </div>
+        </div>
+        <!-- this is the animated favourites text -->
+        <div class="favs">
+            <h4>
+                Favourites
+            </h4>
+        </div>
+        <div class="search-bar">
+            <div>
+                <!-- magnifying glass- search icon -->
+                <i class="fas fa-search search-ico"></i>
+            </div>
+            <input type="text" name="search" placeholder="Search">
+            <div>
+                <!-- mic icon -->
+                <i class="fas fa-microphone mic-ico"></i>
+            </div>
+        </div>
+        <!-- this is for notification bell -->
+        <div class="notification-bell">
+            <img src="pmedia/bell_icon.jpg"> 
+        </div>
+        <span id="noti">Notifications</span>
+        <!-- this is for profile picture -->
+        <div class="profile-picture">
+            <img src="pmedia/profile-picture.jpg">
+        </div>
+    </nav>
+    <!-- this is the main center part of the page and it is divided into two sections, namely section 1 and section 2-->
+    <main>
+        <!-- aside section 1 -->
+        <aside class="aside section-1">
+            <!-- this is for the jumbotron -->
+            <div class="jumbotron">
+                <div class="jumbotron-image">
+                    <!-- there is nothing in this div because all the images and all are added by css -->
+                </div>
+                <div class="jumbotron-detail">
+                    <div class="descriptive-part">
+                        <div class="song-name-main">
+                            <h1>Argit Singh</h1>
+                        </div>
+                        <div class="followers">
+                            23m Followers
+                        </div>
+                        <p class="author">British Band</p>
+                        <!-- short description of the current author -->
+                        <p class="desc">
+                            Arijit Singh is an Indian singer and music composer. The recipient of several accolades including a National Film Award and six Filmfare Awards, he has recorded songs in several Indian languages and has established himself as one of the leading playback singers of Bollywood.
+                        </p>
+                    </div>
+                    <!-- action part -->
+                    <div class="action-part">
+                        <!-- action buttons -->
+                        <div class="btns">
+                            <button>Play All</button>
+                            <button>Follow</button>
+                        </div>
+                        <p>
+                            247 Tracks | 128 Albums
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <!-- now the playlist part begins -->
+            <div class="playlist-items">
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            01
+                        </div>
+                        <div>
+                            <img src="pmedia/playlist/ek_dil_ek_jaan.jpeg">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>
+                                Ek Dil Ek Jaan
+                            </h5>
+                            <p>
+                                Arjit Singh
+                            </p>
+                        </div>
+                    </div>
+                    <div class="center">
+                        3:14
+                    </div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            02
+                        </div>
+                        <div>
+                            <img src="pmedia/playlist/Kesariya-Lyrics.jpg">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>
+                                Kesariya
+                            </h5>
+                            <p>
+                                Arjit Singh
+                            </p>
+                        </div>
+                    </div>
+                    <div class="center">
+                        3:44
+                    </div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            03
+                        </div>
+                        <div>
+                            <img src="pmedia/playlist/laal_ishq.jpg">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>
+                                Laal Ishq
+                            </h5>
+                            <p>
+                                Arjit Singh
+                            </p>
+                        </div>
+                    </div>
+                    <div class="center">
+                        2:55
+                    </div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            04
+                        </div>
+                        <div>
+                            <img src="pmedia/argit singh/agar.png">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>
+                                Agar Tum Sath Ho
+                            </h5>
+                            <p>
+                                Argit Singh
+                            </p>
+                        </div>
+                    </div>
+                    <div class="center">
+                        3:37
+                    </div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            05
+                        </div>
+                        <div>
+                            <img src="pmedia/argit singh/carousel1.jpg">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>
+                                Apna Bana Le
+                            </h5>
+                            <p>
+                                Argit Singh
+                            </p>
+                        </div>
+                    </div>
+                    <div class="center">
+                        3:27
+                    </div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            06
+                        </div>
+                        <div>
+                            <img src="pmedia/argit singh/channa_mereya.jpg">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>
+                                Channa Mereya
+                            </h5>
+                            <p>
+                                Argit Singh
+                            </p>
+                        </div>
+                    </div>
+                    <div class="center">
+                        4:31
+                    </div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            07
+                        </div>
+                        <div>
+                            <img src="pmedia/argit singh/Hamari-Adhuri-Kahani.jpg">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>
+                                Hamari Adhuri Kahani
+                            </h5>
+                            <p>
+                                Argit Singh
+                            </p>
+                        </div>
+                    </div>
+                    <div class="center">
+                        3:28
+                    </div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            08
+                        </div>
+                        <div>
+                            <img src="pmedia/argit singh/ydhm.jpg">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>
+                                Yeh Dil Hai Mushkil
+                            </h5>
+                            <p>
+                                Argit Singh
+                            </p>
+                        </div>
+                    </div>
+                    <div class="center">
+                        3:48
+                    </div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            09
+                        </div>
+                        <div>
+                            <img src="pmedia/argit singh/dekha.jpg">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>
+                                Dekha Hajaro Dafa
+                            </h5>
+                            <p>
+                                Argit Singh
+                            </p>
+                        </div>
+                    </div>
+                    <div class="center">
+                        3:20
+                    </div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            10
+                        </div>
+                        <div>
+                            <img src="pmedia/argit singh/gerua.jpg">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>
+                                Gerua
+                            </h5>
+                            <p>
+                                Argit Singh
+                            </p>
+                        </div>
+                    </div>
+                    <div class="center">
+                        4:10
+                    </div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            11
+                        </div>
+                        <div>
+                            <img src="pmedia/argit singh/hawaye.jpg">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>
+                                Hawayen
+                            </h5>
+                            <p>
+                                Argit Singh
+                            </p>
+                        </div>
+                    </div>
+                    <div class="center">
+                        4:00
+                    </div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            12
+                        </div>
+                        <div>
+                            <img src="pmedia/argit singh/rang.jpeg">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>
+                                Rang Sharbato ka
+                            </h5>
+                            <p>
+                                Argit Singh
+                            </p>
+                        </div>
+                    </div>
+                    <div class="center">
+                        3:31
+                    </div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <!-- one aside is completed here -->
+        <!-- now the second aside section will start from here -->
+        <!-- clicking on more button , you will be shown aside section 2 -->
+
+
+
+
+        <label for="more"><i class="fas fa-angle-double-left"></i>More</label>
+        <!-- this is a more button -->
+        <!-- this is checkbox , this will always be hidden -->
+        <input type="checkbox" id="more">
+        <aside class="aside section-2">
+            <div class="similar">
+                <div class="section-heading">
+                    <h1>Similar Artists</h1>
+                    <div class="view-all-button">
+                        View All
+                    </div>
+                </div>
+                <div class="list">
+                    <div class="list-item">
+                        <div>
+                            <img src="pmedia/songs/kaise_bataye.jpeg">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div style="position: absolute; left:120px;">
+                            <h5>Kaise Batayen</h5>
+                            <p class="author-name">
+                                Atif Aslam
+                            </p>
+                        </div>
+                        <div class="extra">
+                            <div>
+                                <i class="fas fa-ellipsis-h"></i>
+                            </div>
+                            <p class="author-name">
+                                3:17
+                            </p>
+                        </div>
+                    </div>  
+                    <!-- item -->
+                    <div class="list-item">
+                        <div>
+                            <img src="pmedia/songs/yeh_sham.jpg">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div style="position: absolute; left:120px;">
+                            <h5>Yeh Shaam Mastani</h5>
+                            <p class="author-name">
+                                Kishor Kumar
+                            </p>
+                        </div>
+                        <div class="extra">
+                            <div>
+                                <i class="fas fa-ellipsis-h"></i>
+                            </div>
+                            <p class="author-name">
+                                4:04
+                            </p>
+                        </div>
+                    </div>
+                    <!-- items 3 -->
+                    <div class="list-item">
+                        <div>
+                            <img src="pmedia/songs/lut gaye.jpeg">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div style="position: absolute; left:120px;">
+                            <h5>Lut Gaye</h5>
+                            <p class="author-name">
+                                Jubin Nautiyal
+                            </p>
+                        </div>
+                        <div class="extra">
+                            <div>
+                                <i class="fas fa-ellipsis-h"></i>
+                            </div>
+                            <p class="author-name">
+                                4:00
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- recentaly played -->
+                <div class="similar">
+                    <!-- section heading which is also containss the view all button -->
+                    <div class="section-heading">
+                        <h1>Recently Played</h1>
+                        <div class="view-all-button">
+                            View All
+                        </div>                            
+                    </div>
+                    <!-- agian list is a container for all the contents recently played section -->
+                    <div class="list">
+                        <!-- item -->
+                        <div class="playlist-items">
+                            <div class="left">
+                                <div>
+                                    01
+                                </div>
+                                <div>
+                                    <img src="pmedia/latest english/everything.jpg">
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>
+                                        Everything At Once
+                                    </h5>
+                                    <p>
+                                        jully 
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- items -->
+                        <div class="playlist-items">
+                            <div class="left">
+                                <div>
+                                    02
+                                </div>
+                                <div>
+                                    <img src="pmedia//argit singh/Hamari-Adhuri-Kahani.jpg">
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>
+                                        Hamari Adhuri Kahani
+                                    </h5>
+                                    <p>
+                                        Argit Singh
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!--items -->
+                        <div class="playlist-items">
+                            <div class="left">
+                                <div>
+                                    03
+                                </div>
+                                <div>
+                                    <img src="pmedia/songs/yeh_sham.jpg">
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>
+                                        Yeh Shaam Mastani
+                                    </h5>
+                                    <p>
+                                        Kishor Kumar
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item -->
+                        <div class="playlist-items">
+                            <div class="left">
+                                <div>
+                                    04
+                                </div>
+                                <div>
+                                    <img src="pmedia/songs/ghode.jpg">
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>
+                                        Ghode Pe Sawar
+                                    </h5>
+                                    <p>
+                                        Sireesha Bhagvtula
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- items -->
+                        <div class="playlist-items">
+                            <div class="left">
+                                <div>
+                                    05
+                                </div>
+                                <div>
+                                    <img src="pmedia/latest hindi/ek_dil_ek_jaan.jpeg">
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>
+                                        Ek Dil Ek Jaan
+                                    </h5>
+                                    <p>
+                                        Argit Singh
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!--items -->
+                        <div class="playlist-items">
+                            <div class="left">
+                                <div>
+                                    06
+                                </div>
+                                <div>
+                                    <img src="pmedia/popular artists/lata_didi.jpg">
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>
+                                        Lag Ja Gale
+                                    </h5>
+                                    <p>
+                                        Lata Mangeshkar 
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item -->
+                        <div class="playlist-items">
+                            <div class="left">
+                                <div>
+                                    07
+                                </div>
+                                <div>
+                                    <img src="pmedia/songs/kaise_bataye.jpeg">
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>
+                                        Kaise Batayen
+                                    </h5>
+                                    <p>
+                                        Argit Singh 
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- items -->
+                        <div class="playlist-items">
+                            <div class="left">
+                                <div>
+                                    08
+                                </div>
+                                <div>
+                                    <img src="pmedia/playlist/pawawnkhind.jpg">
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>
+                                        Yugat Mandali
+                                    </h5>
+                                    <p>
+                                        Avdhut Gupte
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!--items -->
+                        <div class="playlist-items">
+                            <div class="left">
+                                <div>
+                                    09
+                                </div>
+                                <div>
+                                    <img src="pmedia/songs/shiv_tandav.jpeg">
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>
+                                        Shiv Tandav
+                                    </h5>
+                                    <p>
+                                        Shankar Mahadevan 
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </main>
+    <!-- here the main part of the page is over -->
+    
+    <!-- this si the footer part -->
+    <!-- its position will be fixed to the screen bottom -->
+    <footer>
+        <div class="active-song-description">
+            <!-- song image -->
+            <div id="song-image">
+                <img src="pmedia/argit singh/channa_mereya.jpg">
+            </div>
+            <!-- song name and author name -->
+            <div class="song-desc">
+                <div>
+                    Channa Mereya
+                </div>
+                <div>
+                    Argit Singh
+                </div>
+            </div>
+            <!-- heart icon and bell icon -->
+            <div class="heart-and-ban-icon">
+                <span>
+                    <i class="fas fa-heart"></i>
+                </span>
+                <span>
+                    <i class="fas fa-ban"></i>
+                </span>
+            </div>
+        </div>
+        <!-- these are the main player controls -->
+        <div class="player">
+            <div class="controls">
+                <div><i class="fas fa-randon"></i></div>
+                <div><i class="fas fa-step-backward"></i></div>
+                <div><i class="fas fa-pause-circle"></i></div>
+                <div><i class="fas fa-step-forward"></i></div>
+                <div><i class="fas fa-redo"></i></div>
+            </div>
+            <!-- this is the slider -->
+            <div class="slider">
+                <!-- current time -->
+                <span class="time">
+             
+                </span>
+                <div class="slidecontainer">
+                    <input type="range" min="0" max="100" value="0" class="slider" id="myRange">
+                </div>
+                <span class="time">
+                     1:34
+                </span>
+            </div>
+        </div>
+        <!-- total time -->
+        <span class=" total-time">
+            4:44
+        </span>
+        <!-- other icons including the valume slider and all -->
+        <div class="extras">
+            <div>
+                <i class="fas fa-list-ul"></i>
+            </div>
+            <div>
+                <i class="fas fa-laptop"></i>
+            </div>
+            <div>
+                <i class="fas fa-volume-up"></i>
+            </div>
+            <div class="slidecontainer" style="width:30%;" id="volume-container">
+                <input type="range" min="0" max="100" value="0" class="slider" id="myRange" style="margin-top:0px;">
+            </div>
+            <div>
+                <i class="fas fa-expand-alt"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
